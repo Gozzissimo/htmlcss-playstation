@@ -1,3 +1,18 @@
+:root {
+    --black: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Helvetica, arial, sans-serif;
+}
+
+/* header */
+.header .header-top {
+  background-color: var(--black);
 }
