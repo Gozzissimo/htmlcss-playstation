@@ -12,6 +12,11 @@ body {
     font-family: Helvetica, arial, sans-serif;
 }
 
+[class *="col"] {
+  border: 1px solid red;
+}
+
+
 /* header */
 .header .header-top {
   background-color: var(--black);
