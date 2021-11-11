@@ -16,3 +16,7 @@ body {
 .header .header-top {
   background-color: var(--black);
 }
+
+.sony-logo {
+    height: 1em;
+}
