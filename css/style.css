@@ -31,11 +31,16 @@ body {
 
 /* header */
 .header .header-top {
-  background-color: var(--black);
+    background-color: var(--black);
 }
 
 .header .header-bottom {
-  background-color: var(--white);
+    background-color: var(--white);
+}
+
+.header .header-bottom a {
+    background-color: var(--white);
+    color: var(--black);
 }
 
 .sony-logo {
