@@ -26,7 +26,14 @@ body {
     height: 1em;
 }
 
+.dropdown-menu {
+    border: 0
+}
+
 .dropdown-menu li {
     display: inline-block;
 }
 
+.header .header-bottom .lens {
+    width: 2em;
+}
