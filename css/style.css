@@ -1,5 +1,7 @@
 :root {
-    --black: black;
+    --black:  rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --grey: rgb(125, 125, 125)
 }
 
 * {
@@ -17,9 +19,23 @@ body {
 }
 
 
+/* common */
+.color-w {
+    color: var(--white);
+}
+
+.color-g {
+    color: var(--grey);
+}
+
+
 /* header */
 .header .header-top {
   background-color: var(--black);
+}
+
+.header .header-bottom {
+  background-color: var(--white);
 }
 
 .sony-logo {
@@ -36,4 +52,13 @@ body {
 
 .header .header-bottom .lens {
     width: 2em;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
 }
