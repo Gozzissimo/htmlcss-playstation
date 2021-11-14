@@ -15,8 +15,17 @@ body {
     font-family: Helvetica, arial, sans-serif;
 }
 
-[class *="col"] {
+/* [class *="col"] {
   border: 1px solid red;
+} */
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* common */
@@ -90,7 +99,13 @@ body {
     font-size: 2em;
 }
 
+.components a.active{
+    border-bottom: 2px solid var(--blue);
+}
 
+.components .inactive{
+    opacity: 0.5;
+}
 
 /* media query */
 @media screen and (max-width: 768px) {
