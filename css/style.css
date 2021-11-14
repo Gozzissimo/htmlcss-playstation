@@ -2,6 +2,7 @@
     --black:  rgb(0, 0, 0);
     --white: rgb(255, 255, 255);
     --grey: rgb(125, 125, 125);
+    --blue: rgb(32, 95, 212)
 }
 
 * {
@@ -18,7 +19,6 @@ body {
   border: 1px solid red;
 }
 
-
 /* common */
 .color-w {
     color: var(--white);
@@ -28,6 +28,9 @@ body {
     color: var(--grey);
 }
 
+.bg-blue {
+    background-color: var(--blue);
+}
 
 /* header */
 .header .header-top {
@@ -67,3 +70,33 @@ body {
     background-position: center;
     height: 700px;
 }
+
+.jumbo-banner {
+    width: 60%;
+}
+
+.jumbo-carousel-img {
+    border-radius: 15px;
+}
+
+/* main */
+.ps5-overview h3.slogan{
+    font-size: 0.7em;
+    margin-bottom: 0;
+    color: var(--blue);
+}
+
+.ps5-overview h1{
+    font-size: 2em;
+}
+
+
+
+/* media query */
+@media screen and (max-width: 768px) {
+    .jumbo-banner {
+    width: 50%;
+    }
+}
+
+
