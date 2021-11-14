@@ -15,9 +15,9 @@ body {
     font-family: Helvetica, arial, sans-serif;
 }
 
-/* [class *="col"] {
+[class *="col"] {
   border: 1px solid red;
-} */
+}
 
 a {
     color: unset;
@@ -26,6 +26,10 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* common */
@@ -39,6 +43,13 @@ a:hover {
 
 .bg-blue {
     background-color: var(--blue);
+}
+
+.jumbotron, .games {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
 }
 
 /* header */
@@ -74,13 +85,10 @@ a:hover {
 /* jumbotron */
 .jumbotron {
     background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 700px;
 }
 
-.jumbo-banner {
+
+.jumbotron .banner {
     width: 60%;
 }
 
@@ -107,9 +115,22 @@ a:hover {
     opacity: 0.5;
 }
 
+/* games */
+.games-top {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.games-top .banner {
+    width: 60%;
+}
+
 /* media query */
-@media screen and (max-width: 768px) {
-    .jumbo-banner {
+@media screen and (max-width: 992px) {
+    .jumbo .banner {
+    width: 50%;
+    }
+
+    .games-top .banner {
     width: 50%;
     }
 }
