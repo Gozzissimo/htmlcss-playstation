@@ -6,6 +6,7 @@
     --dark-grey: rgb(36, 36, 36);
     --light-grey: rgb(166, 161, 161);
     --light: rgb(219, 219, 219);
+    --dark-blue: rgb(7, 19, 51);
 }
 
 * {
@@ -139,7 +140,7 @@ ul {
     font-size: 1.3em;
 }
 
-/* ps-pls */
+/* ps-plus */
 .ps-plus {
     background-color: var(--light-grey);
 }
@@ -147,6 +148,18 @@ ul {
 .ps-plus button {
     color: var(--blue);
     background-color: var(--light);
+    border: none;
+}
+
+/* ps-now */
+.ps-now {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.ps-now button {
+    color: var(--black);
+    background-color: var(--white);
     border: none;
 }
 
