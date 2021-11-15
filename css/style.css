@@ -4,6 +4,8 @@
     --grey: rgb(125, 125, 125);
     --blue: rgb(32, 95, 212);
     --dark-grey: rgb(36, 36, 36);
+    --light-grey: rgb(166, 161, 161);
+    --light: rgb(219, 219, 219);
 }
 
 * {
@@ -31,6 +33,10 @@ a:hover {
 
 ul {
     list-style-type: none;
+}
+
+.desc {
+    color: var(--grey);
 }
 
 /* common */
@@ -127,6 +133,17 @@ ul {
 
 .games-bottom {
     background-color: var(--dark-grey);
+}
+
+/* ps-pls */
+.ps-plus {
+    background-color: var(--light-grey);
+}
+
+.ps-plus button {
+    color: var(--blue);
+    background-color: var(--light);
+    border: none;
 }
 
 /* media query */
