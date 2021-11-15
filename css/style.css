@@ -2,7 +2,8 @@
     --black:  rgb(0, 0, 0);
     --white: rgb(255, 255, 255);
     --grey: rgb(125, 125, 125);
-    --blue: rgb(32, 95, 212)
+    --blue: rgb(32, 95, 212);
+    --dark-grey: rgb(36, 36, 36);
 }
 
 * {
@@ -15,9 +16,9 @@ body {
     font-family: Helvetica, arial, sans-serif;
 }
 
-[class *="col"] {
+/* [class *="col"] {
   border: 1px solid red;
-}
+} */
 
 a {
     color: unset;
@@ -45,7 +46,7 @@ ul {
     background-color: var(--blue);
 }
 
-.jumbotron, .games {
+.jumbotron, .games-top {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -124,13 +125,13 @@ ul {
     width: 60%;
 }
 
+.games-bottom {
+    background-color: var(--dark-grey);
+}
+
 /* media query */
 @media screen and (max-width: 992px) {
     .jumbo .banner {
-    width: 50%;
-    }
-
-    .games-top .banner {
     width: 50%;
     }
 }
